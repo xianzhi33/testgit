@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private List<String> mDatas;
     private homeadapter mAdapter;
     int a=0;
-   //修改测试第一次
+   //修改测试第一次  已经完成功能1
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
