@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="arcMenuView">
+        <attr name="radius" format="float"/>
+        <attr name="percent_circle_gravity"><!--圆形绘制的位置-->
+            <flag name="left_top" value="0" />
+            <flag name="right_top" value="1" />
+            <flag name="left_bottom" value="2" />
+            <flag name="right_bottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgress" >
+        <attr name="line_background_color" format="color"/>
+        <attr name="line_font_progress" format="color"/>
+        <attr name="line_weight" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CircleProgress" >
+        <attr name="CircleProgress_line_background_color" format="color"/>
+        <attr name="CircleProgress_line_font_progress" format="color"/>
+        <attr name="CircleProgress_line_weight" format="dimension"/>
+        <attr name="CircleProgress_text_color" format="color"/>
+        <attr name="CircleProgress_text_size" format="dimension"/>
+        <attr name="CircleProgress_circle_diameter" format="dimension"/>
+    </declare-styleable>
+</resources>

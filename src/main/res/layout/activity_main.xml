@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.app.recyclerview.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ceshishangxiala2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="官方例子" />
+
+                <Button
+                    android:id="@+id/ceshishangxiala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="向上滑动隐藏actionbar"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/ceshishangxiala3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="向上滑动收起actionbar"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/cehuaActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="向上滑动收起actionbar"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/FragmentViewPagerActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FragmentView"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/MyProgressActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MyProgress"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/GridRecyclerViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GridRecyclerViewActivity"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/StaggeredGridRecyclerViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="StaggeredGrid\nRecyclerViewActivity"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/SelectStaggeredGridRecyclerViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="StaggeredGrid\nRecyclerViewActivity"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/HFSelectStaggeredGridRecyclerViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HeaderAndFoot爆布流"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+                <Button
+                    android:id="@+id/SwipRefreshLayoutRecyclerViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="-1dp"
+                    android:text="SwipRefreshLayout\nHeaderAndFoot爆布流"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <Button
+                    android:id="@+id/IntentDataSwipRefreshLayoutRecyclerViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="-1dp"
+                    android:text="SwipRefreshLayout\nHeaderAndFoot爆布流\n IntentData"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+                <Button
+                    android:id="@+id/Behavior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="-1dp"
+                    android:text="Behavior"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/zhuanpan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自定义转盘" />
+
+                <Button
+                    android:id="@+id/autolayou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自动排列布局" />
+
+                <Button
+                    android:id="@+id/autolayou_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="排列按钮" />
+
+                <Button
+                    android:id="@+id/arc_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="arc_menu" />
+
+                <Button
+                    android:id="@+id/arc_menu_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="arc_menu_layout" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
